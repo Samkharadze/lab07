@@ -1,3 +1,5 @@
+> language: cpp
+> EOF
 language: cpp
 script:
 - cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install
